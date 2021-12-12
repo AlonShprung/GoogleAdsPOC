@@ -13,9 +13,11 @@
 		1639F7EE27662BC9008E3C49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1639F7EC27662BC9008E3C49 /* Main.storyboard */; };
 		1639F7F027662BCC008E3C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1639F7EF27662BCC008E3C49 /* Assets.xcassets */; };
 		1639F7F327662BCC008E3C49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1639F7F127662BCC008E3C49 /* LaunchScreen.storyboard */; };
+		456D04662D9A98B52C1FEA0C /* Pods_GoogleAdsPOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054BA399F58CA663E03176C3 /* Pods_GoogleAdsPOC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		054BA399F58CA663E03176C3 /* Pods_GoogleAdsPOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleAdsPOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1639F7E327662BC9008E3C49 /* GoogleAdsPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleAdsPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1639F7E627662BC9008E3C49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1639F7E827662BC9008E3C49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		1639F7EF27662BCC008E3C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1639F7F227662BCC008E3C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1639F7F427662BCC008E3C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47CA5486807792AD1ECB0DD7 /* Pods-GoogleAdsPOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleAdsPOC.debug.xcconfig"; path = "Target Support Files/Pods-GoogleAdsPOC/Pods-GoogleAdsPOC.debug.xcconfig"; sourceTree = "<group>"; };
+		959AB8BFAFE408191B6E6D30 /* Pods-GoogleAdsPOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleAdsPOC.release.xcconfig"; path = "Target Support Files/Pods-GoogleAdsPOC/Pods-GoogleAdsPOC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				456D04662D9A98B52C1FEA0C /* Pods_GoogleAdsPOC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				1639F7E527662BC9008E3C49 /* GoogleAdsPOC */,
 				1639F7E427662BC9008E3C49 /* Products */,
+				4CA0954A46E57B3E2805C5E0 /* Pods */,
+				E39311F3FFDBCFC3254A104A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = GoogleAdsPOC;
 			sourceTree = "<group>";
 		};
+		4CA0954A46E57B3E2805C5E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47CA5486807792AD1ECB0DD7 /* Pods-GoogleAdsPOC.debug.xcconfig */,
+				959AB8BFAFE408191B6E6D30 /* Pods-GoogleAdsPOC.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E39311F3FFDBCFC3254A104A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				054BA399F58CA663E03176C3 /* Pods_GoogleAdsPOC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1639F7F727662BCC008E3C49 /* Build configuration list for PBXNativeTarget "GoogleAdsPOC" */;
 			buildPhases = (
+				FC8A3DD700099A3A799F3961 /* [CP] Check Pods Manifest.lock */,
 				1639F7DF27662BC9008E3C49 /* Sources */,
 				1639F7E027662BC9008E3C49 /* Frameworks */,
 				1639F7E127662BC9008E3C49 /* Resources */,
@@ -132,6 +158,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FC8A3DD700099A3A799F3961 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleAdsPOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1639F7DF27662BC9008E3C49 /* Sources */ = {
@@ -284,6 +335,7 @@
 		};
 		1639F7F827662BCC008E3C49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47CA5486807792AD1ECB0DD7 /* Pods-GoogleAdsPOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +363,7 @@
 		};
 		1639F7F927662BCC008E3C49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 959AB8BFAFE408191B6E6D30 /* Pods-GoogleAdsPOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
