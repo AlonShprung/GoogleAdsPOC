@@ -63,6 +63,7 @@
 		1639F7E527662BC9008E3C49 /* GoogleAdsPOC */ = {
 			isa = PBXGroup;
 			children = (
+				1639F7FA27662CA0008E3C49 /* SDK */,
 				1639F7E627662BC9008E3C49 /* AppDelegate.swift */,
 				1639F7E827662BC9008E3C49 /* SceneDelegate.swift */,
 				1639F7EA27662BC9008E3C49 /* ViewController.swift */,
@@ -74,13 +75,19 @@
 			path = GoogleAdsPOC;
 			sourceTree = "<group>";
 		};
+		1639F7FA27662CA0008E3C49 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
 		4CA0954A46E57B3E2805C5E0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				47CA5486807792AD1ECB0DD7 /* Pods-GoogleAdsPOC.debug.xcconfig */,
 				959AB8BFAFE408191B6E6D30 /* Pods-GoogleAdsPOC.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -103,6 +110,7 @@
 				1639F7DF27662BC9008E3C49 /* Sources */,
 				1639F7E027662BC9008E3C49 /* Frameworks */,
 				1639F7E127662BC9008E3C49 /* Resources */,
+				4A0EB43DEB9AD7F85A2BC3B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +168,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4A0EB43DEB9AD7F85A2BC3B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleAdsPOC/Pods-GoogleAdsPOC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleAdsPOC/Pods-GoogleAdsPOC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleAdsPOC/Pods-GoogleAdsPOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FC8A3DD700099A3A799F3961 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

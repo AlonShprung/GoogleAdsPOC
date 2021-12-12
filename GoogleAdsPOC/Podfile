@@ -6,5 +6,6 @@ target 'GoogleAdsPOC' do
   use_frameworks!
 
   # Pods for GoogleAdsPOC
+  pod 'Google-Mobile-Ads-SDK', '= 8.0'
 
 end
