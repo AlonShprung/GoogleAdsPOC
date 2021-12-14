@@ -15,6 +15,8 @@
 		1639F7F327662BCC008E3C49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1639F7F127662BCC008E3C49 /* LaunchScreen.storyboard */; };
 		1639F7FC2766322C008E3C49 /* AdsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639F7FB2766322C008E3C49 /* AdsProvider.swift */; };
 		1639F7FE276632B8008E3C49 /* AppAdsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639F7FD276632B8008E3C49 /* AppAdsProvider.swift */; };
+		1639F800276635D2008E3C49 /* SDKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639F7FF276635D2008E3C49 /* SDKManager.swift */; };
+		1639F80227663654008E3C49 /* SDKAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1639F80127663654008E3C49 /* SDKAdView.swift */; };
 		456D04662D9A98B52C1FEA0C /* Pods_GoogleAdsPOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054BA399F58CA663E03176C3 /* Pods_GoogleAdsPOC.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +32,8 @@
 		1639F7F427662BCC008E3C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1639F7FB2766322C008E3C49 /* AdsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsProvider.swift; sourceTree = "<group>"; };
 		1639F7FD276632B8008E3C49 /* AppAdsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAdsProvider.swift; sourceTree = "<group>"; };
+		1639F7FF276635D2008E3C49 /* SDKManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKManager.swift; sourceTree = "<group>"; };
+		1639F80127663654008E3C49 /* SDKAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKAdView.swift; sourceTree = "<group>"; };
 		47CA5486807792AD1ECB0DD7 /* Pods-GoogleAdsPOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleAdsPOC.debug.xcconfig"; path = "Target Support Files/Pods-GoogleAdsPOC/Pods-GoogleAdsPOC.debug.xcconfig"; sourceTree = "<group>"; };
 		959AB8BFAFE408191B6E6D30 /* Pods-GoogleAdsPOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleAdsPOC.release.xcconfig"; path = "Target Support Files/Pods-GoogleAdsPOC/Pods-GoogleAdsPOC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				1639F7FB2766322C008E3C49 /* AdsProvider.swift */,
+				1639F7FF276635D2008E3C49 /* SDKManager.swift */,
+				1639F80127663654008E3C49 /* SDKAdView.swift */,
 			);
 			path = SDK;
 			sourceTree = "<group>";
@@ -222,6 +228,8 @@
 			files = (
 				1639F7EB27662BC9008E3C49 /* ViewController.swift in Sources */,
 				1639F7E727662BC9008E3C49 /* AppDelegate.swift in Sources */,
+				1639F800276635D2008E3C49 /* SDKManager.swift in Sources */,
+				1639F80227663654008E3C49 /* SDKAdView.swift in Sources */,
 				1639F7E927662BC9008E3C49 /* SceneDelegate.swift in Sources */,
 				1639F7FC2766322C008E3C49 /* AdsProvider.swift in Sources */,
 				1639F7FE276632B8008E3C49 /* AppAdsProvider.swift in Sources */,
